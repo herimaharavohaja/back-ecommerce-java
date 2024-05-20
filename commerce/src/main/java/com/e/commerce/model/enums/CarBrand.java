@@ -1,0 +1,36 @@
+package com.e.commerce.model.enums;
+
+public enum CarBrand {
+    TOYOTA,
+    HONDA,
+    FORD,
+    CHEVROLET,
+    BMW,
+    MERCEDES,
+    AUDI,
+    VOLKSWAGEN,
+    NISSAN,
+    HYUNDAI,
+    KIA,
+    TESLA,
+    LEXUS,
+    SUBARU,
+    MAZDA,
+    JEEP,
+    VOLVO,
+    LAND_ROVER,
+    JAGUAR,
+    PORSCHE,
+    FERRARI,
+    LAMBORGHINI,
+    MASERATI,
+    ASTON_MARTIN,
+    ROLLS_ROYCE,
+    BENTLEY,
+    MITSUBISHI,
+    PEUGEOT,
+    RENAULT,
+    FIAT,
+    ALFA_ROMEO
+}
+
