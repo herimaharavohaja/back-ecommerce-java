@@ -12,11 +12,13 @@ import java.util.UUID;
 @Setter
 @ToString
 @Entity
-@Table(name="CartItem")
-public class CartItem {
+@Table(name="Review")
+public class Review {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private UUID id;
+    private Integer rating;
+    private String commentary;
 
     @ManyToOne
     @JoinColumn(name = "car_id")
@@ -24,5 +26,5 @@ public class CartItem {
 
     @ManyToOne
     @JoinColumn(name = "user_id")
-    private Users user;
+    private Users users;
 }
